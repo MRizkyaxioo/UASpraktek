@@ -46,3 +46,10 @@ int main() {
 
     double nilaiAkhir = hitungNilaiAkhir(nilaiTugas, nilaiUTS, nilaiUAS);
     char grade = tentukanGrade(nilaiAkhir);
+
+    cout << "\nNama Mahasiswa: " << nama << endl;
+    cout << "Nilai Akhir: " << nilaiAkhir << endl;
+    cout << "Grade: " << grade << endl;
+
+    return 0;
+}
