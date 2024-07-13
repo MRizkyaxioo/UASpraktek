@@ -34,3 +34,12 @@ int main() {
     cout << "Aplikasi Penghitung Nilai Mahasiswa" << endl;
     cout << "Masukkan nama mahasiswa: ";
     getline(cin, nama);
+
+    cout << "Masukkan nilai tugas: ";
+    cin >> nilaiTugas;
+
+    cout << "Masukkan nilai UTS: ";
+    cin >> nilaiUTS;
+
+    cout << "Masukkan nilai UAS: ";
+    cin >> nilaiUAS;
