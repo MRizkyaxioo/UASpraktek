@@ -26,3 +26,7 @@ char tentukanGrade(double nilaiAkhir) {
         return 'E';
     }
 }
+
+int main() {
+    string nama;
+    double nilaiTugas, nilaiUTS, nilaiUAS;
