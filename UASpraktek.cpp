@@ -43,3 +43,6 @@ int main() {
 
     cout << "Masukkan nilai UAS: ";
     cin >> nilaiUAS;
+
+    double nilaiAkhir = hitungNilaiAkhir(nilaiTugas, nilaiUTS, nilaiUAS);
+    char grade = tentukanGrade(nilaiAkhir);
