@@ -30,3 +30,7 @@ char tentukanGrade(double nilaiAkhir) {
 int main() {
     string nama;
     double nilaiTugas, nilaiUTS, nilaiUAS;
+
+    cout << "Aplikasi Penghitung Nilai Mahasiswa" << endl;
+    cout << "Masukkan nama mahasiswa: ";
+    getline(cin, nama);
