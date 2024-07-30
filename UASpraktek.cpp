@@ -30,8 +30,10 @@ char tentukanGrade(double nilaiAkhir) {
 int main() {
     string nama;
     double nilaiTugas, nilaiUTS, nilaiUAS;
+    char pilihan;
 
     cout << "Aplikasi Penghitung Nilai Mahasiswa" << endl;
+    do {
     cout << "Masukkan nama mahasiswa: ";
     getline(cin, nama);
 
@@ -50,6 +52,11 @@ int main() {
     cout << "\nNama Mahasiswa: " << nama << endl;
     cout << "Nilai Akhir: " << nilaiAkhir << endl;
     cout << "Grade: " << grade << endl;
+
+    cout << "\n Apakah Anda Ingin Memasukkan Nilai Mahasiswa Lain? (y/n): ";
+    cin >> pilihan;
+
+    } while (pilihan == 'y' || pilihan == 'Y');
 
     return 0;
 }
