@@ -42,7 +42,7 @@ int main() {
     cout << "Aplikasi Penghitung Nilai Mahasiswa" << endl;
     do {
         cin.ignore(); // Menunggu input enter sebelumnya
-        cout << "Masukkan nama mahasiswa: ";
+        cout << "Masukkan Nama Mahasiswa: ";
         getline(cin, mahasiswa[jumlahMahasiswa].nama);
 
         cout << "Masukkan nilai tugas: ";
