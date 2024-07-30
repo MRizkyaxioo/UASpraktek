@@ -34,6 +34,7 @@ int main() {
 
     cout << "Aplikasi Penghitung Nilai Mahasiswa" << endl;
     do {
+    cin.ignore();
     cout << "Masukkan nama mahasiswa: ";
     getline(cin, nama);
 
